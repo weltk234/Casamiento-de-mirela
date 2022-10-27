@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color:#8f579e; 
+}
+
+@font-face {
+    font-family: Mutuallyfuente;
+    src: url(fuentes/Mutually_Beneficial.ttf);
+}
+@font-face {
+    font-family: poppinsregular;
+    src: url(fuentes/Poppins-Regular.ttf);
+}
+
+
+
+.container{
+    max-width: 1400px;
+    padding: 2%;
+    margin: 0%;
+    background-color: #cec1e0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-family:Mutuallyfuente ;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-bottom: 5px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: poppinsregular;
+    font-size: 17px;
+}
+
+nav ul li a{
+    padding: 25px 50px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(255,255, 255)
+}
+
+body{
+    background: white;
+    background-image: url("Imagenes/WhatsApp\ Image\ 2022-10-12\ at\ 01.13.40.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: right left;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Mutuallyfuente;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.parrafo {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-family: Mutuallyfuente;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.cont-temporizador{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cont-temporizador .bloque{
+    margin: 0px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    ;
+}
+
+.cont-temporizador .bloque div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cec1e0;
+    box-shadow: 0px 0px 6px 2px white inset;
+    color: #8f579e;
+    font-size: 50px;
+    font-weight: bold;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family:  poppinsregular;
+    padding: 10px;
+}
+
+.cont-temporizador .bloque div p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #8f579e;
+    font-family: poppinsregular;
+}
+
+p{
+    font-weight: bold;
+    font-size: 25px;
+    font-family:  poppinsregular;
+}
+#caja{
+    border: 5px solid #cec1e0;
+    padding: 10px;
+    font-family:Mutuallyfuente;
+    font-weight: bold;
+    font-size: 50px;
+    background: #cec1e0;
+}
